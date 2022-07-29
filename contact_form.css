@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+}
+.container{
+    margin: 50px;
+    border-style: solid;
+    font-size: 120%;
+}
+input[type=text],textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+
+  input[type=email]{
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  #navbar {
+    text-align: center;
+    padding: 15px;
+    color: whitesmoke;
+    background-color:#0d1137;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 125%;
+    position: sticky;
+  }
+
+  a {
+    color: rgb(245, 237, 237);
+    padding-right: 10%;
+    text-decoration: none;
+  }
+
+  #navbar a:hover {
+    color: #ec4613;
+      text-transform: capitalize;
+  }
+  .dropbtn {
+    background-color: #0d1137;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+  
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: rgb(24, 13, 13);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  
+  .dropdown-content a:hover {
+      background-color: #ddd;
+    }
+  
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
